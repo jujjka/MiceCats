@@ -1,0 +1,133 @@
+i:
+  role: "&6Choose your role"
+  timer: "&1Timer"
+  ready: "&aClick if ready"
+  person_settings: "Personal settings"
+  game_settings: "#80BCCASettings"
+  compass: "#80BCCACompass"
+g:
+  settingGUI:
+    title: "#952C24Settings"
+    night-vision:
+      title: "#5B2C6FNight vision"
+    lang-setting:
+      title: "#FAF6F6Lang"
+  langGUI:
+    title: "&6Choose language"
+    ru: "&4Русский"
+    en: "&1English"
+  game-settingsGUI:
+    title: "#45A3B8Game settings"
+    team_damage:
+      name: "#BBB31BDamage to team (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    ban_items:
+      name: "#730C14Banned items"
+    death_runner_made_hunter:
+      name: "#13758ADeath-Runner (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    latersMadeHunter:
+      name: "#13758ALate players (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    netherPassFor-hunter:
+      name: "#44216EHunters enter hell faster than runners (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    difficulty:
+      name: "#880B0BComplexity"
+    save_inventory:
+      name: "#80BCCASaving inventory (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    description:
+      name: "#80BCCAVoting"
+      lore: "#80BCCADescription"
+  roleGUI:
+    title: "#45A3B8Select a role..."
+    runner: "#9E0404Runner"
+    hunter: "#25609BHunter"
+    spectator: "#80BCCASpectator"
+  difficultyGUI:
+    title: "#45A3B8Complexity"
+    easy:
+      name: "#E06262Easy (%s votes)"
+    normal:
+      name: "#814BA6Normal (%s votes)"
+    peaceful:
+      name: "#DA8D8DPeaceful (%s votes)"
+    hard:
+      name: "#350B52Difficult (%s votes)"
+    back:
+      name: "#80BCCABack"
+    info: "#80BCCADifficulty Default: #CB4335%s"
+  bannedItemsGUI:
+    title: "#45A3B8Banned items"
+    bed:
+      name: "#806593Exploding beds (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    potion:
+      name: "#D69A29Strength Potion (%s votes)"
+      lore: "#80BCCAdefault: %s"
+    back:
+      name: "#80BCCABack"
+  CompassGUI:
+    title: "&8Select a player..."
+    lore: "#952C24%s #80BCCAa few blocks away"
+e:
+  game_soon_start: "The game will start soon..."
+  game_start_soon: "The game is already start!"
+  game-not_started: "#80BCCAThe game has not started!"
+  game_already-start: "#80BCCAThe game already started!"
+  game_notPermCmd: "#80BCCAYou cannot use this command during the game!"
+  game-already_have-you: "#80BCCAYou're already in the game!"
+  game_join_player: "#952C24%s #80BCCAJoined the game! Role#A2B6C6%s"
+  game_many_players: "#80BCCAToo few players!"
+  game_stop: "#952C24%s #80BCCAforce quit the game"
+  game_stop_with-seed: "#952C24%s #80BCCAforce quit the game with the seed installed(#952C24%s#80BCCA)"
+  game_role:
+    hunter: "#80BCCASuccessful! You are a hunter. Your task - #952C24kill all runners"
+    runner: "#80BCCASuccessful! You are a runner. Your task - #952C24stay alive and beat the game"
+    spectator: "#80BCCASuccessful! You are an observer. Watch other players play, but do not give any advice without the consent of both parties\n #952C24If this rule is violated, punitive measures may be taken"
+  give_role: "Choose your role"
+  game_already_paused: "#80BCCAThe game is already paused!"
+  game_not_pause: "#80BCCAThe game is not paused!"
+  game_pause: "#952C24%s #80BCCArequested a pause, the game is temporarily paused.\nPause time: #952C24%s"
+  game_unpase: "#80BCCAThe game has resumed, good luck!"
+  game_runner_win:
+    chat_message: "#80BCCAVictory of the Runner team! Command{%s}"
+    action_bar: "Runners' victory"
+  game_hunter_win:
+    chat_message: "#80BCCAVictory of the Hunter team! Command{%s}"
+    action_bar: "Hunters' victory"
+
+
+  player_not_user: "#80BCCAYou haven't chosen a role!"
+  player_chat: "#45A3B8You can use /tm <message> for team chat"
+  player_gamma_on: "#5B2C6FNight vision: #229954true"
+  player_gamma_of: "#5B2C6FNight vision: #952C24false"
+  players_not_min: "#80BCCAThere are too few players! \nMinimum quantity - #952C24%s"
+  player_join: "#952C24%s #80BCCAjoined the game!"
+  player_exit: "#952C24%s #80BCCAleft the game!"
+  player_reloadWorld: "#80BCCAThe world has been successfully rebooted"
+  playerDeath: "#80BCCATeam member(#952C24%s#80BCCA) #952C24%s #80BCCAdies and leaves the game!"
+  player_saturaion: "#E9BA3CSaturation issued!"
+  player_alreadyExists: "#952C24The player already has a role!"
+  player_chat_notText: "#952C24Enter your message!"
+  player_change_lang: "#45A3B8Now you speak English!"
+  player_change_role: "#45A3B8%s changes role, now he#5B2C6F%s"
+  player_change_role_pers: "#45A3B8Role changed"
+  player_cancelVoit: "#80BCCAVote canceled"
+  player_vote: "#45A3B8%s #80BCCASelects a setting %s"
+  player_dont_open: "#80BCCAForbidden! use /joingame"
+  player_max_vote: "#80BCCAYou have already voted!"
+  onlyOp: "#952C24Operators only!"
+  world_reload: "#80BCCAThe world is rebooting!"
+  arguments_notEnough: "#952C24Too few arguments!"
+  arguments_notType: "#952C24Invalid input!"
+  arg_notPlayer: "#952C24Player not found!"
+  arg_notRole: "#952C24Role not found!"
+  dontPerm: "#80BCCAYou are not allowed!"
+  worldchunksload: "#f2e5d5Chunks loaded (%s#f2e5d5)"
+  worldChunkNow: "#80BCCADuring reboot, some functions do not work"
+  timerMsg: "#80BCCABefore the game starts - (#952C24%s#80BCCA)"
+  timerFinalMsg: "#952C24%s"
+  timerCancel: "#80BCCATimer canceled"
+  timerStart: "#80BCCATimer started"

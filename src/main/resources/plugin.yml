@@ -1,0 +1,58 @@
+name: MiceCats
+version: '${project.version}'
+main: micerat.micecats.MiceCats
+api-version: 1.20
+prefix: Manhunt
+load: STARTUP
+authors: [Andrew_Tate]
+
+commands:
+  heal:
+    permission: op
+    description: Gives to everyone a saturation
+  settings:
+    description: Your Personal Setting
+  cords:
+    description: Your cord
+  joinGame:
+    description: join to game
+  pauseGame:
+    description: pause game
+    permission: op
+    aliases:
+      - pause
+  unpauseGame:
+    description: unpase Game
+    permission: op
+    aliases:
+      - unpause
+  resetseed:
+    permission: op
+  start:
+    permission: op
+  timeGame:
+    aliases:
+      - time
+      - game_time
+  role:
+    permission: op
+  nightvision:
+    aliases:
+      - nv
+  reloadWorld:
+    permission: op
+    aliases:
+      - deleteWorld
+  teamCords:
+    aliases:
+      - teamcord
+  teamChat:
+    aliases:
+      - tm
+  mhCompass:
+    aliases:
+      - manhuntCompass
+      - mhs
+  resetCompass:
+
+

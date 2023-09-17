@@ -1,0 +1,28 @@
+game_setting:
+  world: world #Мир именно для игры
+  world_nether: world_nether
+  world_end: world_end
+  default-world: world_lobby
+
+  min_hunters: 1
+  min_runners: 1
+  minVotesForClaim: 2 #мин.число голосов при котором значение будет меняться
+  maxSelectionVote: 2 #число настроек которое может выбрать игрок при голосовании
+  team_damage: false
+  bed_band: false
+  strength_potion: false
+  death_runner_made_hunter: true
+  laters_made_hunter: true
+  nether_pass_for_cat: false
+  difficulty: NORMAL #NORMAL | HARD | PEACEFUL | EASY
+  save_inventory: true
+serverName:
+  motD: "\u00A7c|-
+    Minecraft Manhunt | \u00A77Ожидание игроков
+    Заходите и играйте"
+  startMod: "\u00A7c|-
+    Minecraft Manhunt | \u00A77Игра началась
+    Заходите и играйте"
+default_lang: "en.yml"
+
+users:

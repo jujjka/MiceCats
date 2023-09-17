@@ -1,0 +1,131 @@
+i:
+  role: "&6Выберите свою роль"
+  timer: "&1Таймер"
+  ready: "&aНажмите если готовы"
+  person_settings: "Личные настройки"
+  game_settings: "#80BCCAНастройки"
+  compass: "#80BCCAКомпас"
+g:
+  settingGUI:
+    title: "#952C24Настройки"
+    night-vision:
+      title: "#5B2C6FНочной зрение"
+    lang-setting:
+      title: "#FAF6F6Язык"
+  langGUI:
+    title: "&6Выберите язык"
+    ru: "&4Русский"
+    en: "&1English"
+  game-settingsGUI:
+    title: "#45A3B8Настройки игры"
+    team_damage:
+      name: "#BBB31BУрон по союзникам (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    ban_items:
+      name: "#730C14Запрещенные предметы"
+    death_runner_made_hunter:
+      name: "#13758AПогибший Раннер (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    latersMadeHunter:
+      name: "#13758AОпоздавшие игроки (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    netherPassFor-hunter:
+      name: "#44216EВозможность охотникам зайти в ад быстрее раннеров (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    difficulty:
+      name: "#880B0BСложность"
+    save_inventory:
+      name: "#80BCCAСохранение инвентаря (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    description:
+      name: "#80BCCAГолосование"
+      lore: "#80BCCAОписание"
+  roleGUI:
+    title: "#45A3B8Выберите роль..."
+    runner: "#9E0404Раннер"
+    hunter: "#25609BХантер"
+    spectator: "#80BCCAСпектатор"
+  difficultyGUI:
+    title: "#45A3B8Сложность"
+    easy:
+      name: "#E06262Легкая (%s голоса)"
+    normal:
+      name: "#814BA6Нормальная (%s голоса)"
+    peaceful:
+      name: "#DA8D8DМирная (%s голоса)"
+    hard:
+      name: "#350B52Сложная (%s голоса)"
+    back:
+      name: "#80BCCAНазад"
+    info: "#80BCCAСложность По умолчанию: #CB4335%s"
+  bannedItemsGUI:
+    title: "#45A3B8Запрещенные предметы"
+    bed:
+      name: "#806593Взрыв кроватей (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    potion:
+      name: "#D69A29Зелье силы (%s голоса)"
+      lore: "#80BCCAпо умолчанию: %s"
+    back:
+      name: "#80BCCAНазад"
+  CompassGUI:
+    title: "&8Выберите игрока..."
+    lore: "#80BCCAВ #952C24%s #80BCCAблоках от вас"
+e:
+  game_soon_start: "Игра скоро начнется..."
+  game_start_soon: "Игра уже идет!"
+  game-not_started: "#80BCCAИгра не начата!"
+  game_already-start: "#80BCCAИгра уже начата!"
+  game_notPermCmd: "#80BCCAВо время игры нельзя пользоваться этой командой!"
+  game-already_have-you: "#80BCCAВы уже в игре!"
+  game_join_player: "#952C24%s #80BCCAПрисоеденился к игре! Роль #A2B6C6%s"
+  game_many_players: "#80BCCAСлишком мало игроков!"
+  game_stop: "#952C24%s #80BCCAпринудительно завершил игру"
+  game_stop_with-seed: "#952C24%s #80BCCAпринудительно завершил игру с установленным сидом (#952C24%s#80BCCA)"
+  game_role:
+    hunter: "#80BCCAУдачно! Вы охотник. Ваша задача - #952C24убить всех Раннеров"
+    runner: "#80BCCAУдачно! Вы Раннер. Ваша задача - #952C24остаться в живых и пройти игру"
+    spectator: "#80BCCAУдачно! Вы наблюдатель. Наблюдайте за игрой других игроков, но без согласия обеих сторон не подсказывайте \n #952C24При нарушении данного правила, могут приниматься карательные меры"
+  give_role: "Выберите свою роль"
+  game_already_paused: "#80BCCAИгра уже на паузе!"
+  game_not_pause: "#80BCCAИгра не приостановлена!"
+  game_pause: "#952C24%s #80BCCAзапросил паузу, игра временно приостановлена.\nВремя паузы: #952C24%s"
+  game_unpase: "#80BCCAИгра возобновлена, Удачи!"
+  game_runner_win:
+    chat_message: "#80BCCAПобеда команды Раннеров! Команда{%s}"
+    action_bar: "Победа раннеров"
+  game_hunter_win:
+    chat_message: "#80BCCAПобеда команды Хантеров! Команда{%s}"
+    action_bar: "Победа хантеров"
+  player_not_user: "#80BCCAВы не выбрали роль!"
+  player_chat: "#45A3B8Вы можете использовать /tm <сообщение> для общения в командном чате"
+  player_gamma_on: "#5B2C6FНочное зрение: #229954true"
+  player_gamma_of: "#5B2C6FНочное зрение: #952C24false"
+  players_not_min: "#80BCCAИгроков слишком мало!. \nМинимальное количество - #952C24%s"
+  player_join: "#952C24%s #80BCCAприсоеденился к игре!"
+  player_exit: "#952C24%s #80BCCAвышел из игры!"
+  player_reloadWorld: "#80BCCAМир успешно перезагружен"
+  playerDeath: "#80BCCAУчастник команды(#952C24%s#80BCCA)#952C24%s #80BCCAпогибает и выходит из игры!"
+  player_saturaion: "#E9BA3CНасыщение выдано!"
+  player_alreadyExists: "#952C24Игрок уже имеет роль!"
+  player_chat_notText: "#952C24Введите сообщение!"
+  player_change_lang: "#45A3B8Теперь у вас русский язык!"
+  player_change_role: "#45A3B8%s меняет роль,теперь он #5B2C6F%s"
+  player_change_role_pers: "#45A3B8Роль изменена"
+  player_cancelVoit: "#80BCCAГолос отменен"
+  player_vote: "#45A3B8%s #80BCCAВыбирает настройку %s"
+  player_max_vote: "#80BCCAВы уже проголосовали!"
+  player_dont_open: "Запрещено! используете /joingame"
+  onlyOp: "#952C24Только операторы!"
+  world_reload: "#80BCCAМир перезагружается!"
+  arguments_notEnough: "#952C24Аргументов слишком мало!"
+  arguments_notType: "#952C24Неправильный ввод!"
+  arg_notPlayer: "#952C24Игрок не найден!"
+  arg_notRole: "#952C24Роль не найдена!"
+  dontPerm: "#80BCCAВам запрещено!"
+  worldchunksload: "#f2e5d5Чанки прогружены (%s#f2e5d5)"
+  worldChunkNow: "#80BCCAВо время перезагрузки, некотрые функции не работают"
+  timerMsg: "#80BCCAДо начала игры - (#952C24%s#80BCCA)"
+  timerFinalMsg: "#952C24%s"
+  timerCancel: "#80BCCAТаймер отменен"
+  timerStart: "#80BCCAТаймер запущен"
